@@ -1,3 +1,5 @@
+package ru.netology;
+
 import com.codeborne.selenide.Condition;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.BeforeAll;

@@ -1,2 +1,5 @@
 rootProject.name = 'patternsOne'
+include 'data'
+include 'src:test:data'
+findProject(':src:test:data')?.name = 'data'
 
